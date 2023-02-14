@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+                                                    /* header */
+#navbar{
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(251, 122, 255);
+    position: fixed;
+    top: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: rgb(236, 28, 170) solid 3px;
+}
+.logo_container{
+    height: 100px;
+    width: 100px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    font-size: 30px;
+}
+
+.bar{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.bar:hover{
+    background-color: rgb(246, 0, 180);
+}
+
+li{
+    margin-right: 100px;
+}
+                                                    /* main */
+#diseños{
+    height: 80vh;
+    background-color: rgb(234, 184, 225);
+    margin-top: 192px;
+    border-bottom: rgb(110, 84, 110) solid 3px;
+}
+.princi{
+    height: 80vh;
+}
+.prize_container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    height: 600px;
+    width: 400px;
+}
+h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.img{
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;  
+}
+/* main ¿Donde Estamos? */
+.maps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* main PRESS ON */
+
+#info{
+    height: 74.5vh;
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.imagen_contenedor{
+    width: 50%;
+    margin-left: 200px;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+}
+.what{
+    margin-left: 100px ;
+    width: 50%;
+    font-size: 25px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(159, 109, 207);
+    border-radius: 10px;
+}
+.letra_color{
+    color: rgb(137, 25, 143);
+}
+.option1{
+    width: 450px;
+    height: 500px;
+}
+/* Main Contactanos */
+
+form{
+    margin: 0 auto;
+    height: 600px;
+    width: 500px;
+    background-color: rgb(144, 28, 144);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border: solid rgb(37, 1, 70) 3px;
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+}
+                                                    /* footer  */
+#footer{
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(153, 177, 197);
+    
+}
+.ul{
+    height: 100%;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: flex-end;
+    height: 50px;
+    width: 50px;
+} 
+.ig{
+    position: absolute;
+    top: 98rem;
+    left: 174rem;
+    max-width: 80px;
+    max-height:80px;
+}
+.wsp{ 
+    position: fixed;
+    top: 87.5rem;
+    left: 181rem;
+    max-width: 50px;
+    max-height: 50px;
+}
+.tiktok{
+    position: absolute;
+    top: 98rem;
+    left: 170rem;
+    max-width: 60px;
+    max-height:60px;
+}
+.fc{
+    position: absolute;
+    top: 98.5rem;
+    left: 166rem;
+    max-width: 40px;
+    max-height:40px;
+}
+.hour{
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    bottom: 3vh;
+    margin-left: 860px;
+}
+.hour1{
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    bottom: 3vh;
+    margin-left: 920px;
+}
+                                                    /* vista mobile */
